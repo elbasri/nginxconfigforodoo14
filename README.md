@@ -1,7 +1,5 @@
-# nginxconfigforodoo14
-إعدادات  nginx و odoo 14
-# تثبيت اودو 14 في مخدم بنظام اوبنتو 18
-# Install odoo 14 on ubuntu 18.04 server
+# إعدادات  nginx و odoo 14
+# Nginx Config for Odoo 14
      
 ##  الكود التالي يوضع في ملف الاعدادات الخاص بالنطاق في مخدم nginx
 ```
