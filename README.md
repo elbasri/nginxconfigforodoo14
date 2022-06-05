@@ -67,5 +67,5 @@ server {
 dbfilter = ^%h$
 ```
 ###  لأي مساعدة يمكنك الاتصال بي عبر بيانات الاتصال الموجودة في موقعي التالي
-https://www.elbasri.net/
+https://www.nacer.ma/
                     
