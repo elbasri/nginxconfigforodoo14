@@ -69,3 +69,5 @@ dbfilter = ^%h$
 ###  لأي مساعدة يمكنك الاتصال بي عبر بيانات الاتصال الموجودة في موقعي التالي
 https://www.nacer.ma/
                     
+Video/فيديو:
+https://www.youtube.com/watch?v=Pi9Yffgmlk4
