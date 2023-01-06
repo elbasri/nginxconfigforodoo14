@@ -10,19 +10,6 @@ upstream odoochat {
  server 127.0.0.1:8072;
 }
 
-# http -> https
-server {
-    if ($host = odoo.elbasri.net) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-   listen 80;
-   server_name odoo.elbasri.net;
-   rewrite ^(.*) https://$host$1 permanent;
-
-
-}
 
 server {
  listen 80;
@@ -60,6 +47,19 @@ server {
 
 }
 
+
+# http -> https
+server {
+    if ($host = odoo.elbasri.net) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+   listen 80;
+   server_name odoo.elbasri.net;
+
+
+}
 ```
 
 #ملاحظة :
