@@ -51,6 +51,7 @@ server {
  location / {
    proxy_redirect off;
    proxy_pass http://odoo;
+   proxy_set_header Host $host;
  }
 
  # common gzip
