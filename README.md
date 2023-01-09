@@ -13,7 +13,7 @@ upstream odoochat {
 
 server {
  listen 80;
- server_name odoo.elbasri.net;
+ server_name odoo.nacer.ma;
  proxy_read_timeout 720s;
  proxy_connect_timeout 720s;
  proxy_send_timeout 720s;
